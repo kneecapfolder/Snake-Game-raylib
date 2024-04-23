@@ -1,18 +1,13 @@
 #include <raylib.h>
+#include <math.h>
 
 int main() {
-    InitWindow(800, 800, "Snake Game");
-    SetTargetFPS(3);
 
-    while (!WindowShouldClose())
-    {
-        BeginDrawing();
+    InitWindow(600, 600, "Snake");
 
-        ClearBackground(BLACK);
-
-        EndDrawing();
+    while(!WindowShouldClose()) {
+        
     }
-    
 
     CloseWindow();
     return 0;
